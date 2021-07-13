@@ -8,3 +8,5 @@ def search(request):
     return render(request, 'coloring/search.html')
 def coloringpage(request):
     return render(request, 'coloring/coloringpage.html')
+def new(request):
+    return render(request, 'coloring/new.html')
