@@ -1,0 +1,89 @@
+/* screen - primary-color-selection */
+
+.primary-color-selection {
+  align-items: center;
+  background-image: url(../img/screen@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  height: 768px;
+  padding: 20px 0;
+  width: 1024px;
+}
+
+.primary-color-selection .overlap-group-1 {
+  align-items: center;
+  background-color: var(--mist-gray);
+  display: flex;
+  height: 75px;
+  min-width: 960px;
+  padding: 5px 28px;
+}
+
+.primary-color-selection .overlap-group4 {
+  align-items: flex-start;
+  background-color: var(--schooner);
+  display: flex;
+  margin-bottom: 1.0px;
+  min-width: 60px;
+}
+
+.primary-color-selection .link {
+  cursor: pointer;
+  height: 60px;
+  object-fit: cover;
+  width: 60px;
+}
+
+.primary-color-selection .overlap-group {
+  align-items: flex-start;
+  background-color: var(--schooner);
+  display: flex;
+  margin-bottom: 1.0px;
+  margin-left: 30px;
+  min-width: 60px;
+}
+
+.primary-color-selection .primary-color {
+  align-self: flex-start;
+  background-color: var(--sea-serpent);
+  border: 2px solid var(--red);
+  cursor: pointer;
+  height: 64px;
+  margin-left: 28px;
+  width: 109px;
+}
+
+.primary-color-selection .secondary-color {
+  background-color: var(--ombre);
+  cursor: pointer;
+  height: 60px;
+  margin-bottom: 1.0px;
+  margin-left: 28px;
+  width: 105px;
+}
+
+.primary-color-selection .overlap-group3 {
+  align-items: flex-start;
+  background-color: var(--black-2);
+  display: flex;
+  margin-bottom: 1.0px;
+  margin-left: 30px;
+  min-width: 180px;
+}
+
+.primary-color-selection .grid-1 {
+  cursor: pointer;
+  height: 60px;
+  margin-left: -1px;
+  margin-top: -1px;
+  object-fit: cover;
+  width: 180px;
+}
+
+.primary-color-selection .canvas {
+  background-color: var(--vista-white);
+  height: 620px;
+  margin-top: 20px;
+  width: 960px;
+}

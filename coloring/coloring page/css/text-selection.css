@@ -1,0 +1,117 @@
+/* screen - text-selection */
+
+.text-selection {
+  align-items: center;
+  background-image: url(../img/screen@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  height: 768px;
+  padding: 20px 0;
+  width: 1024px;
+}
+
+.text-selection .overlap-group-1 {
+  align-items: center;
+  background-color: var(--mist-gray);
+  display: flex;
+  height: 75px;
+  min-width: 960px;
+  padding: 5px 28px;
+}
+
+.text-selection .overlap-group2 {
+  align-items: flex-start;
+  background-color: var(--schooner);
+  display: flex;
+  margin-bottom: 1.0px;
+  min-width: 60px;
+}
+
+.text-selection .link {
+  cursor: pointer;
+  height: 60px;
+  object-fit: cover;
+  width: 60px;
+}
+
+.text-selection .overlap-group {
+  align-items: flex-start;
+  background-color: var(--schooner);
+  display: flex;
+  margin-bottom: 1.0px;
+  margin-left: 30px;
+  min-width: 60px;
+}
+
+.text-selection .overlap-group1 {
+  align-self: flex-start;
+  height: 64px;
+  margin-left: 28px;
+  position: relative;
+  width: 64px;
+}
+
+.text-selection .text {
+  background-color: var(--schooner);
+  height: 60px;
+  left: 2px;
+  position: absolute;
+  top: 2px;
+  width: 60px;
+}
+
+.text-selection .text-1 {
+  cursor: pointer;
+  height: 64px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 64px;
+}
+
+.text-selection .overlap-group6 {
+  align-items: flex-start;
+  background-color: var(--schooner);
+  display: flex;
+  margin-bottom: 1.0px;
+  margin-left: 28px;
+  min-width: 60px;
+}
+
+.text-selection .primary-color {
+  background-color: var(--sea-serpent);
+  cursor: pointer;
+  height: 60px;
+  margin-bottom: 1.0px;
+  margin-left: 30px;
+  width: 105px;
+}
+
+.text-selection .secondary-color {
+  background-color: var(--ombre);
+  cursor: pointer;
+  height: 60px;
+  margin-bottom: 1.0px;
+  margin-left: 30px;
+  width: 105px;
+}
+
+.text-selection .overlap-group3 {
+  background-color: var(--black-2);
+  background-image: url(../img/grid-1@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 60px;
+  margin-bottom: 1.0px;
+  margin-left: 30px;
+  width: 180px;
+}
+
+.text-selection .canvas {
+  background-color: var(--vista-white);
+  height: 620px;
+  margin-top: 20px;
+  width: 960px;
+}
