@@ -10,3 +10,5 @@ def coloringpage(request):
     return render(request, 'coloring/coloringpage.html')
 def new(request):
     return render(request, 'coloring/new.html')
+def animals(request):
+    return render(request, 'coloring/animals.html')
