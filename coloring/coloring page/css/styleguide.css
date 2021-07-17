@@ -1,0 +1,16 @@
+:root { 
+  --black: #000000;
+  --black-2: #00000040;
+  --mist-gray: #c4c4c4;
+  --ombre: #ffffff;
+  --ombre-category: #ffffff;
+  --red: #ff0000;
+  --schooner: #898181;
+  --sea-serpent: #47dad2b7;
+  --vista-white: #fff8f8;
+
+
+}
+.border-1px-black {
+  border: 1px solid var(--black);
+}

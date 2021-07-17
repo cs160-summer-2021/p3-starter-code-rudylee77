@@ -1,0 +1,178 @@
+/* screen - pen-type-choice */
+
+.pen-type-choice {
+  align-items: flex-start;
+  background-image: url(../img/screen@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 768px;
+  padding: 0 10px;
+  width: 1024px;
+}
+
+.pen-type-choice .overlap-group {
+  height: 715px;
+  margin-top: 20px;
+  position: relative;
+  width: 1004px;
+}
+
+.pen-type-choice .tool-bar {
+  background-color: var(--mist-gray);
+  height: 75px;
+  left: 22px;
+  position: absolute;
+  top: 0;
+  width: 960px;
+}
+
+.pen-type-choice .color-grid {
+  background-color: var(--black-2);
+  height: 60px;
+  left: 770px;
+  position: absolute;
+  top: 7px;
+  width: 180px;
+}
+
+.pen-type-choice .grid-1 {
+  height: 60px;
+  left: 770px;
+  object-fit: cover;
+  position: absolute;
+  top: 7px;
+  width: 180px;
+}
+
+.pen-type-choice .secondary-color {
+  background-color: var(--ombre);
+  cursor: pointer;
+  height: 60px;
+  left: 635px;
+  position: absolute;
+  top: 7px;
+  width: 105px;
+}
+
+.pen-type-choice .primary-color {
+  background-color: var(--sea-serpent);
+  cursor: pointer;
+  height: 60px;
+  left: 500px;
+  position: absolute;
+  top: 7px;
+  width: 105px;
+}
+
+.pen-type-choice .text {
+  background-color: var(--schooner);
+  height: 60px;
+  left: 320px;
+  position: absolute;
+  top: 7px;
+  width: 60px;
+}
+
+.pen-type-choice .text-1 {
+  cursor: pointer;
+  height: 60px;
+  left: 320px;
+  object-fit: cover;
+  position: absolute;
+  top: 7px;
+  width: 60px;
+}
+
+.pen-type-choice .eraser {
+  background-color: var(--schooner);
+  height: 60px;
+  left: 230px;
+  position: absolute;
+  top: 7px;
+  width: 60px;
+}
+
+.pen-type-choice .eraser-1 {
+  cursor: pointer;
+  height: 60px;
+  left: 230px;
+  object-fit: cover;
+  position: absolute;
+  top: 7px;
+  width: 60px;
+}
+
+.pen-type-choice .pen-type {
+  background-color: var(--schooner);
+  height: 60px;
+  left: 140px;
+  position: absolute;
+  top: 7px;
+  width: 60px;
+}
+
+.pen-type-choice .pen-1 {
+  height: 64px;
+  left: 138px;
+  object-fit: cover;
+  position: absolute;
+  top: 5px;
+  width: 64px;
+}
+
+.pen-type-choice .pen-thickness {
+  background-color: var(--schooner);
+  height: 60px;
+  left: 50px;
+  position: absolute;
+  top: 7px;
+  width: 60px;
+}
+
+.pen-type-choice .brush-1 {
+  cursor: pointer;
+  height: 60px;
+  left: 50px;
+  object-fit: cover;
+  position: absolute;
+  top: 7px;
+  width: 60px;
+}
+
+.pen-type-choice .canvas {
+  background-color: var(--vista-white);
+  height: 620px;
+  left: 22px;
+  position: absolute;
+  top: 95px;
+  width: 960px;
+}
+
+.pen-type-choice .pens-1 {
+  cursor: pointer;
+  height: 127px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 73px;
+  width: 1004px;
+}
+
+.pen-type-choice .shadow {
+  background-color: var(--schooner);
+  height: 60px;
+  left: 410px;
+  position: absolute;
+  top: 7px;
+  width: 60px;
+}
+
+.pen-type-choice .shadow-1851022-1569009-4 {
+  cursor: pointer;
+  height: 60px;
+  left: 410px;
+  object-fit: cover;
+  position: absolute;
+  top: 7px;
+  width: 60px;
+}
